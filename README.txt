@@ -46,7 +46,8 @@
 /******************************************************************************
 /* Algorithm Overview
 /* 
-/* After triples are stored in the array of LinkedList of nodes, the starting /* nodes is found by iterating through the LinkedList of all nodes that share
+/* After triples are stored in the array of LinkedList of nodes, the starting 
+/* nodes is found by iterating through the LinkedList of all nodes that share
 /* the computer number.
 /* Then BFS is performed starting from the given node.
 /* Every time a node is visited, it is set as discovered, and the infection 
